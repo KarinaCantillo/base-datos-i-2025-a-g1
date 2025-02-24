@@ -1,0 +1,48 @@
+# Sistemas Manejadores de Bases de Datos (SMBD)
+
+## Tipos de SMBD
+
+### 1. SMBD Jerárquicos
+- Organizan los datos en una estructura de árbol (padre-hijo).
+- Eficientes para consultas predefinidas, pero rígidos para cambios.
+- **Ejemplo:** IBM IMS (Information Management System).
+
+### 2. SMBD en Red
+- Permiten relaciones más complejas mediante gráficos (varios padres-hijos).
+- Más flexibles, pero requieren consultas más complejas.
+- **Ejemplo:** IDMS de CA Technologies.
+
+### 3. SMBD Relacionales (RDBMS)
+- Basados en tablas con filas y columnas.
+- Usan **SQL** para manejar datos.
+- Son los más utilizados actualmente.
+- **Ejemplos:** MySQL, PostgreSQL, Oracle, SQL Server.
+
+### 4. SMBD Orientados a Objetos (OODBMS)
+- Manejan datos como objetos, similar a la programación orientada a objetos.
+- Útiles para estructuras de datos complejas.
+- **Ejemplo:** db4o, ObjectDB.
+
+### 5. SMBD NoSQL
+- No siguen el modelo relacional.
+- Se dividen en:
+  - **Clave-Valor:** Redis, DynamoDB.
+  - **Columnar:** Apache Cassandra, HBase.
+  - **Documentos:** MongoDB, CouchDB.
+  - **Grafos:** Neo4j, ArangoDB.
+
+### 6. SMBD en Memoria
+- Almacenan datos en **RAM** en lugar de disco para mayor velocidad.
+- **Ejemplo:** Redis, Memcached.
+
+### 7. SMBD Distribuidos
+- Manejan datos en múltiples servidores para escalabilidad y redundancia.
+- **Ejemplo:** Google Bigtable, Apache Cassandra.
+
+---
+
+### 📌 Contribuciones
+Si deseas contribuir a este repositorio, siéntete libre de hacer un **fork** y enviar un **pull request**.
+
+### 📜 Licencia
+Este proyecto está bajo la licencia **MIT**.
