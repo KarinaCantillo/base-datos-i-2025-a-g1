@@ -1,0 +1,27 @@
+# Herramientas Esenciales para Análisis de Datos
+
+## Hojas de Cálculo
+- **Microsoft Excel**: Una de las herramientas más utilizadas para análisis de datos. Permite manipular datos en filas y columnas, usar funciones incorporadas, filtros, tablas dinámicas y crear visualizaciones como gráficos de barras, líneas o circulares.
+- **Google Sheets**: Alternativa gratuita a Excel, ideal para colaboración en línea. Ofrece funcionalidades similares aunque con menos capacidades estadísticas avanzadas.
+
+## Lenguajes de Consulta
+- **SQL (Structured Query Language)**: Lenguaje estándar para comunicarse con bases de datos relacionales. Permite seleccionar, insertar, actualizar y eliminar datos mediante comandos como SELECT, INSERT, UPDATE y DELETE.
+- **NoSQL**: Utilizado para trabajar con datos no estructurados en bases de datos no relacionales. Ideal para big data y aplicaciones web en tiempo real.
+
+## Lenguajes de Programación
+- **Python**: Lenguaje gratuito, de código abierto y fácil de aprender. Ampliamente utilizado en ciencia de datos para conectar con bases de datos, manejar grandes volúmenes de datos y realizar análisis complejos. Cuenta con numerosas bibliotecas como:
+  - **Matplotlib**: Biblioteca para crear visualizaciones y gráficos en 2D.
+  - **Pandas**: Para manipulación y análisis de datos.
+
+## Plataformas y Software
+- **IBM Watson Studio**: Entorno de desarrollo integrado para ciencia de datos y aprendizaje automático. Incluye herramientas de refinamiento de datos que permiten preparar y transformar grandes cantidades de datos sin necesidad de programar.
+- **Tableau**: Software popular para visualización de datos y business intelligence. Permite crear dashboards interactivos, gráficos y mapas para obtener insights significativos.
+
+## Otras Tecnologías Relevantes
+- **Apache Spark**: Motor de análisis de código abierto para conjuntos de datos muy grandes.
+- **Jupyter Notebook**: Aplicación web para crear documentos computacionales interactivos.
+- **R y RStudio**: Lenguaje de programación estadística y su entorno de desarrollo.
+- **Scala**: Lenguaje escalable útil para analizar grandes conjuntos de datos.
+- **IBM SPSS Statistics**: Suite de software estadístico para gestión de datos y análisis avanzado.
+
+Estas herramientas permiten a los científicos de datos recopilar, manipular y analizar datos empresariales para obtener insights valiosos que ayuden a las empresas a desarrollar soluciones exitosas.
