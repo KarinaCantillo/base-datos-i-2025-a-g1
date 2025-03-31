@@ -1,0 +1,12 @@
+version: '3.8'
+services:
+  db:
+    container_name: contenedor1Postgres
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: 12345
+    ports:
+      - "5433:5432"
