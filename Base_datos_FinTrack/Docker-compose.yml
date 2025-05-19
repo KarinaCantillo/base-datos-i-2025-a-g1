@@ -1,0 +1,16 @@
+services:
+  mysql:
+    container_name: serve-mysql
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: KARI
+    ports:
+      - "3310:3306"
+    volumes:
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+volumes:
+  mysql_data:
+    driver: local
