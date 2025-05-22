@@ -14,7 +14,7 @@ DELIMITER ;
 --Prevenir gastos negativos
 
 DELIMITER //
-CREATE TRIGGER before_insert_expense
+CREATE TRIGGER validation_expense
 BEFORE INSERT ON expense
 FOR EACH ROW
 BEGIN
